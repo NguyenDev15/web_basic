@@ -8,26 +8,29 @@
     width: 1707px;
     margin: auto;
 }
-
-header{
+       /* header */
+.header{
     background: #B85B4C;
     height: 150px;
     border-style: double;
 }
-header img{
+.logo{
     width: 125px;
     height: 100px;
     margin: 23px;
-    border-radius: 70px;
+    border-radius: 100px;
 }
-nav{
+
+
+       /* navbar */
+.navbar_header{
     background-color: #D49053;
     height: 75px;
     margin-bottom: 5px;
     
 }
 
-nav .menu ul{
+.nav_ul{
     list-style: none;
 
 }
@@ -35,26 +38,41 @@ nav .menu ul li{
     float: left;
     line-height: 70px;
     padding: 0 50px;
+   
 }
 
 nav .menu ul li a{
     color: black;
-    font-size: large;
     text-decoration-line: none ;
     font-weight: 550;
 }
 
-nav .search{
+.search{
     line-height: 70px;
-    float: right;
     margin-right: 50px;
+    float: right;
+    
 }
 
 .img_slide {
-    width: 100%;
+    width: 70%;
     height: 550px;
     display: flex;
     justify-content: space-around;
+    margin: 0 auto;
 }
 
 
+
+.placeholder{
+    width: 200px;
+    height: 30px;
+    border-radius: 5px;
+}
+
+.search_button:hover{
+    width: 130px;
+    height: 27px;
+    color: rgb(68, 11, 224);
+    border-radius: 4px;
+}
