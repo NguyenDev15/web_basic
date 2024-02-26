@@ -50,15 +50,11 @@ nav .search{
     margin-right: 50px;
 }
 
-.slide a{
-   display: flex;
-   justify-content: center;
-   align-items: center;
-   background-color: #FDC06F;
+.img_slide {
+    width: 100%;
+    height: 550px;
+    display: flex;
+    justify-content: space-around;
 }
 
-.img_title {
-    width: 500px;
-    margin: 20px 20px 20px 0;
-}
-    
+
